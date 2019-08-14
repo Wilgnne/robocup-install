@@ -77,6 +77,6 @@ sudo make install
 cd ../..
 
 cd ~
-echo -e 'LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib rcssclient\nexport LD_LIBRARY_PATH' >> .bashrc
+echo -e 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib rcssclient' >> .bashrc
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib rcssclient
 
